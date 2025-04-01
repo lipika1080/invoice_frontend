@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8000/invoices";
+const API_URL = "https://invoicebackend.azurewebsites.net/invoices";
 
 export const getInvoices = async () => {
   const response = await axios.get(API_URL);
